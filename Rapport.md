@@ -5,10 +5,8 @@
 > **Source des données** : [Portail National des Données Ouvertes — data.gov.tn](https://data.gov.tn)  
 > **Période couverte** : 1990 – 2023  
 
-
+---
 ## 1. Contexte Général
-
-L'industrie pétrolière constitue l'un des piliers de l'économie, que ce soit à l'échelle nationale ou internationale. La Tunisie entre dans l'ère pétrolière dès 1957, avec la création de la TRAPSA (Compagnie des Transports par Pipe-Lines au Sahara) et la mise en place des premières infrastructures d'évacuation du brut via le terminal de La Skhira.
 
 L'ère pétrolière tunisienne s'est caractérisée par la découverte progressive de champs pétroliers et la création continue de sociétés dont l'activité principale est d'explorer, d'exploiter, de raffiner et de distribuer du pétrole. 
 
@@ -111,7 +109,7 @@ Plusieurs champs présents dans le dataset n'enregistrent aucune valeur de produ
 
 ## 3. Préparation des Données
 
-Cette phase a pour objectif de transformer les données brutes identifiées en Phase 2 en un ensemble structuré, cohérent et exploitable dans Power BI. Les opérations de préparation ont été réalisées via Power Query, en veillant à préserver la traçabilité des transformations effectuées. Les fichiers originaux sont conservés dans leur état brut dans le dossier `data/raw/`, tandis que les versions traitées sont versionnées dans `data/processed/`.
+Cette phase a pour objectif de transformer les données brutes identifiées en Phase 2 en un ensemble structuré, cohérent et exploitable dans Power BI. Les opérations de préparation ont été réalisées via Power Query, en veillant à préserver la traçabilité des transformations effectuées. Les fichiers originaux sont conservés dans leur état brut dans le dossier `Doonées/original/`, tandis que les versions traitées sont versionnées dans `Données/nettoyé/`.
 
 ### 3.1 Opérations communes
 
@@ -142,3 +140,7 @@ Les transformations suivantes ont été appliquées à l'ensemble des fichiers :
 - Suppression des dernières lignes vides en fin de fichier
 
 ---
+## 4. Visualisation des Données
+Le nettoayage et la tansformation des données dans les étapes précédentes ont aboutit au tableau de board suivant. Un tel Dashboard répond aux questions analytiques définies préalablement.
+
+![Modèle Power BI](Captures/Tableau de Bord.png)
