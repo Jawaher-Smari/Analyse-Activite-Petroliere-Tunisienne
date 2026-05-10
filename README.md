@@ -141,6 +141,6 @@ Les transformations suivantes ont été appliquées à l'ensemble des fichiers :
 
 ---
 ## 4. Visualisation des Données
-Le nettoayage et la tansformation des données dans les étapes précédentes ont aboutit au tableau de board suivant. Un tel Dashboard répond aux questions analytiques définies préalablement.
+Le nettoayage et la tansformation des données dans les étapes précédentes ont abouti au tableau de board suivant. Un tel Dashboard répond aux questions analytiques définies préalablement.
 
 ![Modèle Power BI](Captures/Dashboard.png)
